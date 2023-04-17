@@ -18,9 +18,9 @@ const User: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         avatar: "https://avatars.githubusercontent.com/u/15785230?s=40&v=4",
         name: "Panda",
         description:
-            'Star on <a href="https://github.com/startpanda" class="color-[#3050fb]" target="_blank" >Github</a>',
+            'Star on <a href="https://github.com/helianthuswhite/chatgpt-web-next" class="color-[#3050fb]" target="_blank" >Github</a>',
     });
-    return <UserStore.Provider value={{ userInfo, setUserInfo }}>{children}</UserStore.Provider>;git 
+    return <UserStore.Provider value={{ userInfo, setUserInfo }}>{children}</UserStore.Provider>;
 };
 
 export default User;
